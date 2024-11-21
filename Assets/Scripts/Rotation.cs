@@ -8,7 +8,6 @@ public class Rotation : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Current Rotation: " + transform.rotation.eulerAngles);
         transform.Rotate(Vector3.up * _speed * Time.deltaTime);
     }
 }
